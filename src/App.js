@@ -1,5 +1,6 @@
 
 import './App.css';
+import Content from './Portofolio/Content';
 import Nav from './Portofolio/Nav';
 
 function App() {
@@ -9,6 +10,8 @@ function App() {
         <div className="row">
           <div className='col'>
             <Nav></Nav>
+           
+            <Content></Content>
           </div>
         </div>
       </div>

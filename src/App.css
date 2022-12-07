@@ -36,6 +36,52 @@
     transform: rotate(360deg);
   }
 } */
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;500&display=swap');
 .App{
   background-color: #101010;
+}
+*{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+}
+.nav-item{
+  font-weight: 200;
+  margin-left: 16px;
+}
+.nav-item .btn-my-works{
+  padding: 8px;
+  color: #101010;
+}
+.img-content{
+  margin-top: 104px; 
+  border-radius: 8px;
+}
+
+.img-content-mobile{
+  margin-top: 16px; 
+  border-radius: 8px;
+  padding: 16px;
+}
+.content{
+  color: #ffff;
+  margin-top: 104px; 
+}
+.content-mobile{
+  color: #ffff; 
+}
+.name{
+  font-weight: 200;
+}
+.social-prove{
+  font-weight: 100;
+}
+.angka{
+  margin-top: 16px;
+  margin-left: 16vh;
+  color: #ffffff;
+}
+.garis{
+  border: 2.5px solid;
+  border-color: #ffffff;
+  border-radius: 5px;
 }
