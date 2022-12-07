@@ -62,12 +62,22 @@
   border-radius: 8px;
   padding: 16px;
 }
+.img-content-ipad{
+  margin-top: 32px;
+  border-radius: 8px;
+ 
+}
+
 .content{
   color: #ffff;
   margin-top: 104px; 
 }
 .content-mobile{
   color: #ffff; 
+}
+.content-ipad{
+  color: #ffff; 
+  margin-top: 32px;
 }
 .name{
   font-weight: 200;
