@@ -40,6 +40,7 @@
 .App{
   background-color: #101010;
 }
+
 *{
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
@@ -66,6 +67,21 @@
   margin-top: 32px;
   border-radius: 8px;
  
+
+}
+.btn-outline-secondary{
+ 
+  background-color: #ff0000;
+
+  border: 2px solid #E8E8E8;
+}
+.b-sosial-prove{
+  background-color: #1D1D1D;
+  margin-top: 104px;
+}
+.b-sosial-prove-mobile{
+  background-color: #1D1D1D;
+  margin-top:32px;
 }
 
 .content{
@@ -90,6 +106,45 @@
   margin-left: 16vh;
   color: #ffffff;
 }
+.new-btn{
+  border: 7px solid #101010;
+  background-color: transparent;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+}
+.new-btn-black{
+  border-color: #101010;
+  border-radius: 8px;
+  color: #1D1D1D;
+}
+.new-btn-black:hover{
+  border-radius: 8px;
+
+  border-color: white;
+
+}
+.navbar-brand{
+  z-index: 1;
+}
+
+.lingkaran{
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: absolute ;
+  /* left: -300px; */
+  top: -580px;
+  filter: blur(250px);
+  
+
+ 
+
+  background: white;
+  z-index: 0;
+}
+
 .garis{
   border: 2.5px solid;
   border-color: #ffffff;

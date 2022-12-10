@@ -49,7 +49,6 @@ export default function Content() {
       </div>
 
       {/* Mobile */}
-
       <div className="row">
         <div className="col-sm-5">
           <div className="content-mobile d-sm-block d-md-none">
