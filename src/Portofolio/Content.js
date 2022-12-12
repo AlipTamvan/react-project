@@ -1,4 +1,17 @@
+import { useState, useEffect } from "react";
 export default function Content() {
+  let [panjang, setPanjang] = useState(window.innerHeight);
+  let [lebar, setLebar] = useState(window.innerWidth);
+
+  useEffect(() => {
+    window.onresize = function () {
+      // window.document.body.clientWidth;
+      setPanjang(window.innerHeight);
+      setLebar(window.innerWidth);
+    };
+  });
+
+  // useEffect(() => {}, [panjang]);
   return (
     <>
       {/* Dekstop */}
@@ -72,7 +85,7 @@ export default function Content() {
         <div className="col-sm-2">
           <div className="container">
             <div className="row">
-              <div className="col-4 text-center">
+              <div className={panjang > lebar ? "col-4 center" : "center"}>
                 <div className="content-mobile  d-sm-block d-md-none">
                   <h5 className="mt-3 social-prove">Year Of Experience</h5>
                   <h3 className="name  d-sm-block d-md-none ">
@@ -80,7 +93,7 @@ export default function Content() {
                   </h3>
                 </div>
               </div>
-              <div className="col-4 text-center">
+              <div className={panjang > lebar ? "col-4 center" : "center"}>
                 <div className="content-mobile  d-sm-block d-md-none ">
                   <h5 className="mt-3 social-prove">Complete Project</h5>
                   <h3 className="name  d-sm-block d-md-none">
@@ -89,7 +102,7 @@ export default function Content() {
                 </div>
               </div>
 
-              <div className="col-4 text-center">
+              <div className={panjang > lebar ? "col-4 center" : "center"}>
                 <div className="content-mobile  d-sm-block d-md-none">
                   <h5 className="mt-3 social-prove">Client</h5>
                   <h3 className="name d-sm-block d-md-none b-client">
