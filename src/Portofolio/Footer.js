@@ -10,19 +10,19 @@ export default function Footer() {
                 <a href="https://github.com/AlipTamvan?tab=repositories">
                   <i
                     className="bi bi-github p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
                 <a href="https://www.instagram.com/alivanurramadhan">
                   <i
                     className="bi bi-instagram p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
                 <a href="https://web.facebook.com/aliva.nurramadhan">
                   <i
                     className="bi bi-facebook p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
               </div>
@@ -44,19 +44,19 @@ export default function Footer() {
                 <a href="https://github.com/AlipTamvan?tab=repositories">
                   <i
                     className="bi bi-github p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
                 <a href="https://www.instagram.com/alivanurramadhan">
                   <i
                     className="bi bi-instagram p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
                 <a href="https://web.facebook.com/aliva.nurramadhan">
                   <i
                     className="bi bi-facebook p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
               </div>
@@ -78,19 +78,19 @@ export default function Footer() {
                 <a href="https://github.com/AlipTamvan?tab=repositories">
                   <i
                     className="bi bi-github p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
                 <a href="https://www.instagram.com/alivanurramadhan">
                   <i
                     className="bi bi-instagram p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
                 <a href="https://web.facebook.com/aliva.nurramadhan">
                   <i
                     className="bi bi-facebook p-2"
-                    style={{ fontSize: 2 + "rem", color: "#101010" }}
+                    style={{ fontSize: 2 + "rem", color: "#ffffff" }}
                   ></i>
                 </a>
               </div>
