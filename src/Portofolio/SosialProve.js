@@ -105,6 +105,7 @@ export default function SosialProve() {
                 <button className="active"></button>
                 <button></button>
                 <button></button>
+                <button></button>
               </div>
             </div>
           </div>

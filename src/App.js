@@ -1,5 +1,7 @@
 import "./App.css";
+import Contact from "./Portofolio/Contact.js";
 import Content from "./Portofolio/Content";
+import Footer from "./Portofolio/Footer";
 import Nav from "./Portofolio/Nav";
 import SosialProve from "./Portofolio/SosialProve";
 
@@ -16,7 +18,12 @@ function App() {
           </div>
         </div>
       </div>
-      <SosialProve></SosialProve>
+      <SosialProve id="sosialProve"></SosialProve>
+
+      <Contact></Contact>
+      <footer>
+        <Footer></Footer>
+      </footer>
     </div>
   );
 }

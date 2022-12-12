@@ -1,7 +1,7 @@
 export default function Content() {
   return (
-    // Dekstop
     <>
+      {/* Dekstop */}
       <div className="row">
         <div className="col-sm-5">
           <div className="content d-none d-lg-block ">
@@ -92,7 +92,7 @@ export default function Content() {
               <div className="col-4 text-center">
                 <div className="content-mobile  d-sm-block d-md-none">
                   <h5 className="mt-3 social-prove">Client</h5>
-                  <h3 className="name  d-sm-block d-md-none">
+                  <h3 className="name d-sm-block d-md-none b-client">
                     <b>17</b>
                   </h3>
                 </div>

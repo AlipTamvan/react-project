@@ -1,8 +1,9 @@
 import { Link } from "react-router-dom";
+// import { Link } from "react-scroll";
 
 export default function Nav() {
   return (
-    <nav className=" container-fluid navbar navbar-expand-lg navbar-dark">
+    <nav className="container-fluid  navbar navbar-expand-lg navbar-dark">
       <Link className="navbar-brand" href="#">
         <b>Aliva.</b>
       </Link>
@@ -20,7 +21,7 @@ export default function Nav() {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
-            <Link className="nav-link active" aria-current="page" href="#">
+            <Link className="nav-link" href="#home">
               Home
             </Link>
           </li>
@@ -30,18 +31,18 @@ export default function Nav() {
             </Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" href="#">
-              Services
+            <Link className="nav-link" href="#contact-mobile">
+              Contact
             </Link>
           </li>
-          <li className="nav-item">
+          {/* <li className="nav-item">
             <button
               className="nav-link btn btn-light btn-sm  btn-my-works"
               href="#"
             >
               My Works
             </button>
-          </li>
+          </li> */}
         </ul>
       </div>
     </nav>
