@@ -7,7 +7,7 @@ export default function Nav() {
       <Link className="navbar-brand" href="#">
         <b>Aliva.</b>
       </Link>
-      <button
+      {/* <button
         className="navbar-toggler"
         type="button"
         data-bs-toggle="collapse"
@@ -17,8 +17,8 @@ export default function Nav() {
         aria-label="Toggle navigation"
       >
         <span className="navbar-toggler-icon"></span>
-      </button>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
+      </button> */}
+      {/* <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav ms-auto">
           <li className="nav-item">
             <Link className="nav-link" href="#home">
@@ -35,16 +35,16 @@ export default function Nav() {
               Contact
             </Link>
           </li>
-          {/* <li className="nav-item">
+          <li className="nav-item">
             <button
               className="nav-link btn btn-light btn-sm  btn-my-works"
               href="#"
             >
               My Works
             </button>
-          </li> */}
+          </li>
         </ul>
-      </div>
+      </div> */}
     </nav>
   );
 }
