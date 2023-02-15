@@ -6,8 +6,8 @@ export default function Content() {
   useEffect(() => {
     window.onresize = function () {
       // window.document.body.clientWidth;
-      setPanjang(window.innerHeight);
-      setLebar(window.innerWidth);
+      // setPanjang(window.innerHeight);
+      // setLebar(window.innerWidth);
     };
   });
 
