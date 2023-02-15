@@ -134,7 +134,7 @@ export default function Content() {
             <hr className="col-sm-5 garis" color="white"></hr>
             <h5 className="text-justify">
               A freelancer who provides service for digital programming and
-              design content needs, for all businesss
+              design content needs, for all business
             </h5>
           </div>
         </div>
