@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+// import { useState, useEffect } from "react";
 export default function Content() {
   // let [panjang, setPanjang] = useState(window.innerHeight);
   // let [lebar, setLebar] = useState(window.innerWidth);
